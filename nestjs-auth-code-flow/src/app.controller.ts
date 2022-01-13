@@ -1,5 +1,10 @@
 import { Controller, Get, UseGuards } from '@nestjs/common';
-import { AuthGuard, RoleGuard, Roles, Unprotected } from 'nest-keycloak-connect';
+import {
+  AuthGuard,
+  RoleGuard,
+  Roles,
+  Unprotected,
+} from 'nest-keycloak-connect';
 import { AppService } from './app.service';
 
 @Controller()
